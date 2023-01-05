@@ -1,13 +1,13 @@
 # Commands
 
-## Connect to vm
+## Connect to existing VM
 
 1. Open WSL on Windows, Terminal on Mac, Shell on Linux
 2. `chmod 400 <keyname>.pem`
 3. private key path: `~/.ssh/<keyname>.pem`
 4. `ssh -i ~/.ssh/<keyname>.pem azureuser@<ip address>`
 
-## Azure Cloud Shell Create Vm
+## Azure Cloud Shell
 
 1. Create Resource Group
     `New-AzResourceGroup -Name pwrsgroup -Location 'EastUS'`
@@ -24,7 +24,7 @@
 4. Stop the vm
     `Stop-AzVm -Name "<vm name>" -ResourceGroupName "<resource group name>`
 
-## Azure CLI (Within Azure Cloud Shell)
+## Azure CLI
 
 1. Create resource group
     `az group create --name cligroup --location eastus`
