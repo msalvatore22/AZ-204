@@ -40,3 +40,9 @@
 
 1. Go to connect tab in portal
 3. Follow steps to connect via ssh or rdp to the vm
+
+## While its Running
+
+1. Size tab in Azure portal allows you to scale the vm up or down, requires restart
+2. You can set up Azure DevOps for CI/CD
+3. You can enable automatic backups
